@@ -393,6 +393,10 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+			
+			case 'fnaf4': //Week 87
+				var bg:BGSprite = new BGSprite('fnaf4bg', -600, -200, 0.9, 0.9);
+				add(bg);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
